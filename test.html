@@ -3,8 +3,20 @@
 <head>
 	<meta charset="utf-8">
 	<title>LeeXue's home page</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
 </head>
 <body>
 	<h1>Welcome to lixue's website!</h1>
+	<button class="btn btn-primary" id="btn1">OK</button>
+
+	<script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				alert("Welcome!");
+			});
+		});
+	</script>
 </body>
 </html>
